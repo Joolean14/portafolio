@@ -15,6 +15,7 @@
     --white-color: #fff;
     --hero-color: black;
 }
+
 .work-hero-card{
     display: block;
     margin:0 auto;
@@ -82,6 +83,10 @@
     text-align: center;
     font-size: 0.8em;
 
+}
+
+.fa-circle {
+    color: #635EF2;
 }
 
 #work-row {
@@ -458,7 +463,7 @@ li span a:hover {
     text-align: left;
     font-size: 4.5em;
     font-weight: bold;
-    color: var(--hero-color);
+    color: #635EF2;
     font-family: 'CircularStd', sans-serif;
 }
 
@@ -725,6 +730,11 @@ li span:hover:after {
 /* #logo {
     display: none;
 } */
+
+iframe {
+    margin-top: 5%;
+    /* margin-left: 70%; */
+}
 
 @media only screen and (max-width: 768px) {
 
